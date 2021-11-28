@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var web: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        if let url = URL(string: "http://localhost") {
+                let request = URLRequest(url: url)
+                web.load(request as URLRequest)
+            }
     }
 
 
 }
+
 
