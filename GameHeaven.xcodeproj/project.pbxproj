@@ -13,6 +13,7 @@
 		BF64383B2752199100D0ABBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6438392752199100D0ABBC /* Main.storyboard */; };
 		BF64383D2752199400D0ABBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF64383C2752199400D0ABBC /* Assets.xcassets */; };
 		BF6438402752199400D0ABBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF64383E2752199400D0ABBC /* LaunchScreen.storyboard */; };
+		BF64384927521B4000D0ABBC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF64384827521B4000D0ABBC /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF64383C2752199400D0ABBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF64383F2752199400D0ABBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF6438412752199400D0ABBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF64384827521B4000D0ABBC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF64384927521B4000D0ABBC /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				BF6438322752199100D0ABBC /* GameHeaven */,
 				BF6438312752199100D0ABBC /* Products */,
+				BF64384727521B4000D0ABBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				BF6438412752199400D0ABBC /* Info.plist */,
 			);
 			path = GameHeaven;
+			sourceTree = "<group>";
+		};
+		BF64384727521B4000D0ABBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF64384827521B4000D0ABBC /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
